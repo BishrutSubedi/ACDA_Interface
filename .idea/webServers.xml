@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f8094101-ec0b-471f-9c6b-32c03a124f1b" name="192.168.33.133" url="http://192.168.33.133">
+        <fileTransfer host="192.168.33.133" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="32566505-9f3e-4810-b66f-eecb5dd2d597" name="tx2_local" url="http://192.168.1.131">
+        <fileTransfer host="192.168.1.131" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="844e586a-cd8b-40a1-808f-cc5aa6e09f67" name="tx2_remote" url="http://192.168.1.130">
+        <fileTransfer host="192.168.1.130" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ca98e689-af1f-40b4-ad41-6de67ed15ae4" name="192.168.33.131" url="http://192.168.33.131">
+        <fileTransfer host="192.168.33.131" port="22" rootFolder="/home" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
